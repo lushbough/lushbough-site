@@ -1,0 +1,22 @@
+
+
+  body{
+      background-color: greenyellow;
+  }
+
+.parent .child{
+    display: grid;
+    place-items: center;
+}
+
+.child{
+    background-color: white;
+    max-width: 100%;
+}
+
+
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .parent.child{ width: 75%;}
+  }
