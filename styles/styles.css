@@ -7,3 +7,14 @@ body{
     background-size: 20rem;
     background-blend-mode: darken
 }
+
+.btn {
+    color: white;
+    border-color: white;
+    background-color: salmon;
+}
+.btn :hover {
+    color: white;
+    border-color: white;
+    background-color: salmon;
+}
