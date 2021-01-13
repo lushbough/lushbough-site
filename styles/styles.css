@@ -1,22 +1,9 @@
-
-
-  body{
-      background-color: greenyellow;
-  }
-
-.parent .child{
-    display: grid;
-    place-items: center;
+body{
+    color: whitesmoke;
+    background-color: aqua;
+    background-image: url("/images/sailing.gif");
+    position: center;
+    background-repeat: repeat;
+    background-size: 20rem;
+    background-blend-mode: darken
 }
-
-.child{
-    background-color: white;
-    max-width: 100%;
-}
-
-
-  
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .parent.child{ width: 75%;}
-  }
