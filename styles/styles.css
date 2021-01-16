@@ -1,20 +1,23 @@
-body{
-    color: whitesmoke;
-    background-color: aqua;
-    background-image: url("https://github.com/lushbough/lushbough-site/blob/main/images/sailing.gif");
-    position: center;
-    background-repeat: repeat;
-    background-size: 20rem;
-    
+body {
+  color: whitesmoke;
+  background-color: aqua;
+  background-image: url("https://github.com/lushbough/lushbough-site/blob/main/images/sailing.gif");
+  position: center;
+  background-repeat: repeat;
+  background-size: 20rem;
 }
 
 .btn-primary {
-    color: #fff;
-    background-color: #0495c9;
-    border-color: #357ebd; /*set the color you want here*/
+  color: #fff;
+  background-color: #0495c9;
+  border-color: #357ebd; /*set the color you want here*/
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-    color: #fff;
-    background-color: #00b3db;
-    border-color: #285e8e; /*set the color you want here*/
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active,
+.btn-outline-light.active,
+.open > .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #00b3db;
+  border-color: #285e8e; /*set the color you want here*/
 }

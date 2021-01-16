@@ -7,6 +7,9 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
         <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
 
     <link rel="stylesheet" href="styles/styles.css">
 </head>
@@ -20,103 +23,161 @@
             
             <li class="list-inline-item">
                 <div class="col-3">
-                    <h1 class="display-5">William Lushbough</h1></li>
+                    <h5 class="display-5">William Lushbough</h5></li>
                 </div>
 
                 <div class="col-9">
-                    <li class="list-inline-item">
-                        <button type="button" class="btn btn-outline-primary btn-lg">Home</button>
-                    </li>
-                    <li class="list-inline-item">
-                        <button type="button" class="btn btn-outline-primary btn-lg">Projects</button>
-                    </li>
-                    <li class="list-inline-item">
-                        <button type="button" class="btn btn-outline-primary btn-lg">Skills</button>
-                    </li>
-                    <li class="list-inline-item">
-                        <button type="button" class="btn btn-outline-primary btn-lg">Experience</button>
-                    </li>
-                    <li class="list-inline-item">
-                        <button type="button" class="btn btn-outline-primary btn-lg">Contact</button>
-                    </li>
+                    <ul class="nav">
+                        <li class=" nav-item">
+                            <button type="button" class="btn btn-outline-light btn-lg" style="color: aquamarine;">Home</button>
+                        </li>
+
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-light btn-lg" style="color: aquamarine;"><a href="#projects">Projects</a></button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-light btn-lg" style="color: aquamarine;">Skills</button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-light btn-lg" style="color: aquamarine;">Experience</button>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-light btn-lg" style="color: aquamarine;">Contact</button>
+                        </li>
+                                   
+                        <li class="nav-item">
+                        <button type="button" class="btn btn-outline-light btn-lg" style="color: aquamarine;">
+                            <li class="list-inline-item">
+                                <a href="http://www.github.com/lushbough"><i class="bi bi-github"></i></a>
+                        </button></li> 
+
+    
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-light btn-lg" style="color: aquamarine;">
+                                    <a href="http://www.linkedin.com/in/william-lushbough"><i class="bi bi-linkedin"></i></a>
+                            </button>
+                        </li>
+
+                    </ul>
+                    
                 </div>
                 
         </ul>
         </div>
-    <div class="row">
-        <div class="col-md-6">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla atque incidunt eum? Quia, nostrum aliquid earum debitis id modi minima culpa et, aliquam qui minus nulla ad doloremque perferendis saepe.
+    <div class="row gap-2 text-center ">
+        <h3 class="display-3">Bio</h3>
+       
+        <div class="col">
+                <p class="lead">
+                  I am a undegraduate student pursuing a Bachelors in Computer Science. Currently, I am a seeking Game Development or Web Development internship for the Summer or part-time during the Spring of 2021.   
                 </p>
             </div>
         
-            <div class="col-md-6">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla atque incidunt eum? Quia, nostrum aliquid earum debitis id modi minima culpa et, aliquam qui minus nulla ad doloremque perferendis saepe.
+            <div class="col">
+                <p class="lead"> My current projects are regularly uploaded to my github account and this webiste. These projects range from Java Desktop games, Web/Mobile/Browser applications, and Hybrid applications.
                 </p>
             </div>
     </div>
     </div>
 
-<div class="container-md bg-dark">
+<div class="container-md bg-dark text-center align-items-center">
+    <!-- start container align/size div -->
+<div class="row gap-2">
+    <div > 
+        <h3 class="display-3">
+            Skills
+        </h3>
+    </div> 
 
-<div class="row gy-3">
-<div class ="col-md-2"> <p>
-    Skills
-</p></div>    
-<div class ="col-md-2"> <p>
-    JavaScript
-</p></div>    
-<div class ="col-md-2"> <p>
-    C++
-</p></div>    
-<div class ="col-md-2"> <p>
-    Node.js
-</p></div>    
-<div class ="col-md-2"> <p>
-    CSS
-</p></div>    
-<div class ="col-md-2"> <p>
-    Java
-</p></div>    
+</div>
+<div class="row gap-2">
+   
+    <div class="col"> 
+        <p class="lead">
+            JavaScript
+        </p>
+    </div>
+
+        <div class="col">
+            <p class="lead">
+                Node.js
+            </p>
+        </div>
+    
+        <div class="col">
+            <p class="lead">
+                Java
+            </p>
+        </div>
+
+        <div class="col">
+            <p class="lead">
+                MySQL
+            </p>
+        </div>
+
+        <div class="col">
+            <p class="lead">
+                React Native
+            </p>
+        </div>
+    
+        <div class="col">
+            <p class="lead">
+                CSS & HTML
+            </p>
+        </div>
+  
+<div></div>  
+    
+   
 
 
 
-<div class="row">
-  <div class="col-md-4">
+<div class="row gap-2">
+    <h3 class="display-3" id="#projects">Projects</h3>
+
+  <div class="col">
     <div class="card bg-dark mb-3" style="max-width: 18rem">
-        <img class="card-img-top" src="images/bg.png">
+        <img class="card-img-top img-thumbnail" src="images/pokemonfit.png" style="max-height: 11.5rem;">
 
       <div class="card-body bg-dark">
-        <h3 class="card-title text-light">Title</h3>
-        <p class="card-text">Text</p>
-      </div>
+        <h3 class="card-title display-6">TileMap Game</h3>
+        <a href="http://www.github.com/"><p>Github</p></a>
+        <p class="card-text lead">A TileMap 2-D game based off Pokemon, made with <b>Java</b> and <b>LibGDX</b>. <b>Data Structures</b> are used to store and update a user's Pokemon.</p>
+    </div>
     </div>
   </div>
-  <div class="col-md-4">
+  <div class="col">
     <div class="card bg-dark mb-3" style="max-width: 18rem">
-        <img class="card-img-top" src="images/bg.png">
+        <img class="card-img-top img-thumbnail" src="images/pokemon.PNG" style="max-height: 11.5rem;">
 
       <div class="card-body">
-        <h3 class="card-title">Title</h3>
-        <p class="card-text">Text</p>
+        <h3 class="card-title display-6">Alarm Clock</h3>
+
+        <p class="card-text lead">Text</p>
+        <a href="http://www.github.com/">Live Site</a> |
+        <a href="http://www.github.com/">Github</a></p>
+
       </div>
     </div>
     </div>
   
 
-  <div class="col-md-4">
+  <div class="col">
       <div class="card bg-dark mb-3" style="max-width: 18rem">
-        <img class="card-img-top" src="images/bg.png">
+        <img class="card-img-top img-thumbnail" src="images/bg.png" style="max-height: 11.5rem;">
     
         <div class="card-body">
-          <h3 class="card-title">Title</h4>
-          <p class="card-text">Body</p>
+          <h3 class="card-title display-6"> To-Do-List App React-Native</h4>
+          <p class="card-text">soon</p>
         </div>
       </div>
   </div>
 </div>
 
-</div>
-
+</div> 
+<!-- end container align/size div -->
 
     <script src="js/bootstrap.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
